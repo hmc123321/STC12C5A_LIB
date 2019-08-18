@@ -9,4 +9,5 @@
 #define uint unsigned int
 #endif	
 void AdcInit(char x,char speed,bit intr);
+uint analogRead(uchar pin);
 #endif	
